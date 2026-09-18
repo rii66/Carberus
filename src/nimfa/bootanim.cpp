@@ -53,7 +53,7 @@ void playBootAnimation() {
        isJumping = true;
        jumpSpeed = 8; // Kekuatan lompat awal
        
-      // beepJump(); // buzzer event 
+       beepJump(); // buzzer event 
        
     }
     
@@ -99,7 +99,7 @@ void playBootAnimation() {
   
   // Gambar teks
   u8g2.drawStr(22, 50, "CONNECTED");
-  
+  beepConnected();
   u8g2.sendBuffer();
   delay(600);
   
