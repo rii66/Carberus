@@ -4,6 +4,7 @@
 void beep(int freq = 2000, int dur = 80);
 
 void beepJump();
+void beepConnected();
 void beepSelect();
 void beepSave();
 void beepMove();
